@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
@@ -15,10 +16,32 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Boobalan.Ms</span>
+            Hi, I'm <span className="text-[#915eff]">Boobalan.Ms</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A software developer with three years of hands-on experience in
+            A <span className={`${styles.heroSubText}, text-[#915eff]` }>
+
+           
+            <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'Front End Developer',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'Back End Developer',
+        1000,
+        'Full Stack Developer',
+        1000,
+        'React Developer',
+        1000,
+        'Angular Developer',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      // style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={Infinity}
+    />  </span> <br />
+            with three years of hands-on experience in
             creating dynamic and innovative web applications. My passion for
             technology is coupled with a strong foundation in both front-end and
             back-end development.
