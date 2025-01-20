@@ -40,18 +40,14 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>ABOUT ME</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      Hello! My name is Boobalan.Ms and I enjoy creating things that live on the internet.I thrive in translating complex ideas into efficient, user-friendly software.I'm dedicated to staying abreast of emerging technologies, continuously expanding my knowledge base, and embracing new challenges that drive the ever-evolving landscape of software development. Whenever I have time, I am eager to develop my skills in New things. When I’m not at the computer, I’m usually hanging out with my family and friends, or watching movies.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
