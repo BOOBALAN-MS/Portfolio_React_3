@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { Image } from "../assets";
+import { cv } from "../assets";
 import { ComputersCanvas } from "./canvas";
 import { TypeAnimation } from "react-type-animation";
 
@@ -43,7 +44,7 @@ const Hero = () => {
               />{" "}
             </span>{" "}
             <br />
-            with three years of hands-on experience in creating dynamic and
+            with <span className="text-[#915eff]">3</span>+ <span className="text-[#915eff]">years</span>   of hands-on experience in creating dynamic and
             innovative web applications. My passion for technology is coupled
             with a strong foundation in both front-end and back-end development.
           </p>
@@ -51,7 +52,7 @@ const Hero = () => {
           <div className={`xl:mt-5 flex xl:flex-row flex-col-reverse gap-10 justify-around items-center`}>
             <div>
               <a
-                href="/cv.pdf" // Path to your CV in the public folder
+                href={cv} // Path to your CV in the public folder
                 download="Boobalan_CV.pdf" // Suggested file name for download
                 className="bg-[#915EFF] hover:bg-[#7a4ce9] text-white font-medium py-3 px-6 rounded-lg transition duration-300"
               >

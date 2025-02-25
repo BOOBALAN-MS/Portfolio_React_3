@@ -1,4 +1,6 @@
+import MS_LOGO from "./MS_LOGO.png";
 import logo from "./logo.svg";
+import cv from "./Boobalan_Resume.pdf";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -35,6 +37,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  MS_LOGO,
+  cv,
   logo,
   backend,
   creator,
