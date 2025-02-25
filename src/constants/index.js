@@ -18,6 +18,7 @@ import {
   docker,
   meta,
   starbucks,
+  site_logo,
   tesla,
   shopify,
   carrent,
@@ -43,10 +44,7 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
+ 
   {
     title: "Frontend Developer",
     icon: mobile,
@@ -54,7 +52,11 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  }
+  },
+  {
+    title: "Full Stack Developer",
+    icon: web,
+  },
   
 ];
 
@@ -125,7 +127,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "Zettaone Technologies Pvt. Ltd.",
-    icon: starbucks,
+    icon: site_logo,
     iconBg: "#383E56",
     date: "February 2022 - Present",
     points: [

@@ -50,7 +50,7 @@ const About = () => {
       Hello! My name is Boobalan.Ms and I enjoy creating things that live on the internet.I thrive in translating complex ideas into efficient, user-friendly software.I'm dedicated to staying abreast of emerging technologies, continuously expanding my knowledge base, and embracing new challenges that drive the ever-evolving landscape of software development. Whenever I have time, I am eager to develop my skills in New things. When I’m not at the computer, I’m usually hanging out with my family and friends, or watching movies.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex justify-around flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
